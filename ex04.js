@@ -1,7 +1,5 @@
-//Escreva um programa que imprime a soma dos 100 primeiros números naturais
-let vetor = [];
-for(i = 0; i<=100; i++){
-    vetor.push(i);
-}
-let soma = vetor.reduce((estado, item) => estado+item);
-console.log(soma);
+var a = 65
+var b = 23
+var c = 8
+var res = a**2 + b**2 + c**2
+console.log(res)

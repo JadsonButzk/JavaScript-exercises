@@ -1,19 +1,2 @@
-//escreva um programa que imprime todos os números primos entre 1 e 100
-const umAcem = [];
-for(i=1; i<101; i++) {
-    umAcem.push(i);
-}
-/*let primos = []
-for(u = 1; u < 101; u++){
-    for(let numero of umAcem){
-        if(u/numero !=1 || u/numero !=u){
-            console.log(u)
-        }else{
-            primos = u;
-        }
-    }
-}
-console.log(primos)
-*/
-
-//até agora, 23/12/21, não consegui
+//Desenvolver um programa que leia dez elementos numéricos reais de uma matriz A do tipo vetor.
+//Construir uma matriz B de mesmo tipo, observando a seguinte lei de formação: se o valor do índice da matriz A for par, o valor deve ser multiplicado por 5; sendo ímpar, deve ser somado com 5. Ao final, mostrar o conteúdo da matriz A e B.

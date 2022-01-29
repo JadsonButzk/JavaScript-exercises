@@ -1,0 +1,10 @@
+var A = 23;
+var B = 78;
+let soma = (a, b) => console.log(a+b);
+let subtracao = (a, b) => console.log(a-b);
+let multiplicacao = (a, b) => console.log(a*b);
+let divisao = (a, b) => console.log((a/b).toFixed(2).replace(".", ","));
+soma(A, B);
+subtracao(A, B);
+multiplicacao(A, B);
+divisao(A, B);
